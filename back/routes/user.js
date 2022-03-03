@@ -42,7 +42,13 @@ router.post("/login", async (req, res, next) => {
         console.error(loginErr);
         return next(loginErr);
       }
-      return res.status(200).json(user);
+      const userNonePW = await User.findOne({
+        where: { id: user.id },
+        attributes: {
+          exclude: ["password"],
+        },
+      });
+      return res.status(200).send(userNonePW);
     });
   })(req, res, next);
 });
