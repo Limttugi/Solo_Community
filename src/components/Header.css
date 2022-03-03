@@ -1,0 +1,25 @@
+.mainConatiner {
+  border: 1px solid black;
+  width: 100vw;
+  height: 5vh;
+}
+
+.headerContainer {
+  border: 1px solid black;
+  width: 60%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 20%;
+}
+
+.go_btn {
+  text-decoration: none;
+  color: black;
+}
+
+.decoNone {
+  text-decoration: none;
+  color: black;
+}

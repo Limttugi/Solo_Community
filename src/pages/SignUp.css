@@ -1,0 +1,27 @@
+.signUpForm {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: inherit;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.input_signup {
+  padding: 10px;
+  border: 1px solid lightgray;
+  margin: 3px 0px 15px 0px;
+}
+
+.signUpBtn {
+  border: none;
+  border-radius: 5px;
+  margin: 10px 0px 10px 0px;
+  padding: 10px;
+  font-size: 18px;
+}
