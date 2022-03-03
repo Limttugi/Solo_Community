@@ -23,7 +23,11 @@ db.sequelize
 
 app.use(express.json());
 app.use(bodyParser.urlencoded({ extended: true }));
-app.use(cors());
+app.use(
+  cors({
+    credentials: true,
+  })
+);
 app.set({ "access-control-allow-origin": "*" });
 passportConfig();
 app.use(cookieParser(process.env.COOKIE_SECRET));
