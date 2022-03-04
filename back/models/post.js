@@ -5,17 +5,21 @@ module.exports = class Post extends Model {
   static init(sequelize) {
     return super.init(
       {
+        title: {
+          type: DataTypes.TEXT,
+          allowNull: false,
+        },
         content: {
           type: DataTypes.TEXT,
           allowNull: false,
         },
       },
       {
-        modelName: 'Post',
-        tableNmae: 'posts',
+        modelName: "Post",
+        tableNmae: "posts",
         charset: "utf8mb4",
         collate: "utf8mb4_general_ci",
-        sequelize
+        sequelize,
       }
     );
   }
