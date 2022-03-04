@@ -1,3 +1,12 @@
 * {
   box-sizing: border-box;
 }
+
+.topContainer {
+  position: fixed;
+  background-color: white;
+}
+
+.bodyContainer {
+  padding-top: 16vh;
+}

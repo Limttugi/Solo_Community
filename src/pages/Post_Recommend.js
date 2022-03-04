@@ -5,7 +5,6 @@ const Post_Recommend = () => {
   return (
     <>
       <div>추천</div>
-      <PagingBtn />
     </>
   );
 };

@@ -1,0 +1,16 @@
+.postSection {
+  height: 100%;
+  overflow: scroll;
+}
+
+.postContainer {
+  border: 1px solid lightgray;
+  height: 8vh;
+}
+
+.postContainer span {
+  line-height: 8vh;
+}
+
+.postContainer {
+}

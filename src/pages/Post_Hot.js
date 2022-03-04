@@ -5,7 +5,6 @@ const Post_Hot = () => {
   return (
     <>
       <div>핫</div>
-      <PagingBtn />
     </>
   );
 };
