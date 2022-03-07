@@ -1,5 +1,4 @@
 import React from "react";
-import PagingBtn from "../components/PagingBtn";
 
 const Post_Hot = () => {
   return (

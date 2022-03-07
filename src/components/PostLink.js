@@ -1,6 +1,6 @@
 import React from "react";
 import { useSelector } from "react-redux";
-import PagingBtn from "./PagingBtn";
+import BottomMenu from "./BottomMenu";
 
 import "./PostLink.css";
 
@@ -23,7 +23,7 @@ const Post = () => {
     <>
       <section className="postSection">
         {test()}
-        <PagingBtn />
+        <BottomMenu />
       </section>
     </>
   );

@@ -1,0 +1,20 @@
+.searchPostContainer {
+  background-color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.inputSearch {
+  padding: 5px 10px 5px 10px;
+  margin-bottom: 5px;
+  width: 60vw;
+  outline: none;
+  text-align: center;
+}
+
+.inputSearch:focus::placeholder {
+  color: transparent;
+}

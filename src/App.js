@@ -13,6 +13,8 @@ import MyInfo from "./pages/MyInfo";
 import PostLatest from "./pages/Post";
 import PostHot from "./pages/Post_Hot";
 import PostRecommend from "./pages/Post_Recommend";
+import SearchPost from "./pages/SearchPost";
+import WritePost from "./pages/WritePost";
 
 const App = () => {
   return (
@@ -30,6 +32,8 @@ const App = () => {
           <Route path="/post" element={<PostLatest />} />
           <Route path="/post/hot" element={<PostHot />} />
           <Route path="/post/recommend" element={<PostRecommend />} />
+          <Route path="/search" element={<SearchPost />} />
+          <Route path="/write" element={<WritePost />} />
         </Routes>
       </section>
     </BrowserRouter>
