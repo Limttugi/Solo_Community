@@ -1,0 +1,34 @@
+.writePostForm {
+  width: 100%;
+  height: 84vh;
+}
+
+.postArticle {
+  width: 100%;
+  height: 10vh;
+  font-size: 20px;
+  padding: 5px;
+  border: none;
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+}
+.postArticle::placeholder {
+  font-size: 20px;
+}
+
+.postTitle {
+  margin-top: 1vh;
+}
+
+.postContent {
+  margin: 1.5vh 0 1.5vh 0;
+  height: 60vh;
+  resize: none;
+}
+
+.sendPostForm {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-color: white;
+}

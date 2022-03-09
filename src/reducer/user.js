@@ -1,7 +1,7 @@
 export const initialState = {
   signupLoading: false,
   signupDone: false,
-  signupInfo: null,
+  signupError: null,
   loginLoading: false,
   loginDone: false,
   loginInfo: null,

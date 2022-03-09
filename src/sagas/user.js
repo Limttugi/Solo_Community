@@ -28,7 +28,7 @@ function* signup(action) {
   }
 }
 function loginAPI(data) {
-  return axios.post("http://localhost:3065/user/login", data);
+  return axios.post("/user/login", data);
 }
 function* login(action) {
   try {
@@ -47,13 +47,13 @@ function* login(action) {
   }
 }
 
-function* signUp() {
+function* Signup() {
   yield takeLatest(SIGNUP_REQUEST, signup);
 }
-function* logIn() {
+function* Login() {
   yield takeLatest(LOGIN_REQUEST, login);
 }
 
 export default function* userSaga() {
-  yield all([fork(signUp), fork(logIn)]);
+  yield all([fork(Signup), fork(Login)]);
 }
